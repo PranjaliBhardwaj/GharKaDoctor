@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+body{
+    background-color: rgb(243, 248, 253);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #27616E;
+    height: 90px;
+    font-family: poppins;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;    
+    margin: 0 23px;
+    position: relative;
+    margin-left: 20px;
+    left: 175px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 20px;
+}
+nav .leftnav{
+    color: #6FD2E8;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left:-100px;}
+
+.section2 div{
+    width: 450px; 
+    height: 643px;
+    border: 0px solid #000000;
+    position: relative;
+    top:20px;
+    margin: 10px 10px;
+    border-radius:20px;
+    box-shadow: rgba(39, 97, 110, 0.1) 0px 2px 8px;
+    
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.helenatodpic img{
+    
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 75px;
+    top: 70px;
+}
+.helenatodtext{
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    left: -100px;
+}
+.helenatodtext2{
+    font-weight: 200;
+    position: relative;
+    top: 110px;
+    left: 40px;
+    width: 300px;
+    padding: 80px;
+}
+.helenatodgeneralinfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 170px;
+    left: 10px;
+}
+.outerboxofgeneralcheckup{
+    width: 330px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+}
+.upcomingsppointment{
+    position: relative;
+    left: 1px;
+    top: 2px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 0px solid black;
+    width: 447px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: rgba(39, 97, 110, 0.1) 0px 2px 8px;
+    font-size: 29px;
+
+}
+.aupcomingsppointment{
+    position: relative;
+    left: 1px;
+    top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 0px solid black;
+    width: 447px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: rgba(39, 97, 110, 0.1) 0px 2px 8px;
+    font-size: 29px;
+
+}
+.btn button{
+    height: 45px;
+    width: 410px;
+    position: relative;
+    left: 16px;
+    top: -5px;
+    background: #27616E;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: lighter;
+
+}
+.btn img{
+    position: relative;
+    z-index: 1;
+    top: 49px;
+    /* width: 45px; */
+    /* height: 45px; */
+    height: 30px;
+    left: 50px;
+}
+.footer{
+    margin-top: 40px;
+}
+.sec{
+    padding: 40px 120px;
+    background-color: rgb(244,244,253);
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.two div{
+    width: 200px;
+}
+.ghar{
+    color: #27616E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.follow{
+    font-weight: bolder;
+    font-size: 13px;
+margin-left: 40px;
+margin-top: 10px;
+color: #27616E;
+
+}
+.social{
+    color: #27616E;
+    margin-left: 20px;
+}
+.two h4{
+    font-weight: bolder;
+    color: #27616E;
+    white-space: nowrap; 
+margin-bottom: 10px;
+}
+.two a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #27616E;
+    font-size: 0.9rem;
+}

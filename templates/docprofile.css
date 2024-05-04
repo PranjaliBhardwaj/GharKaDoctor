@@ -1,0 +1,202 @@
+*{
+    padding: 0;margin: 0;
+    text-decoration: 0;
+}
+
+body {
+    background-color:#ffffff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #27616E;
+    height: 90px;
+    font-family: poppins;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;    
+    margin: 0 23px;
+    position: relative;
+    margin-left: 20px;
+    left: 175px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 20px;
+}
+nav .leftnav{
+    color: #6FD2E8;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left:-100px;}
+
+body .rightbiggerbox{
+    border:1px solid black;
+    height: 70vh;
+    width: 30%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: rgb(215 244 250);
+    margin-left: 10px;
+    box-shadow: rgba(21, 62, 71, 0.1) 5px 8px 10px;
+    
+}
+.docprofilepic{
+    width: 200px;height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    top: 70px;
+    left: 25%;
+}
+.docname{
+    position: relative;
+    top: 230px;
+    left: 14%;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 190px;
+}
+.docaddres{
+    position: relative;
+    top: 150px;
+    left: 140px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.lefttopbox{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    position: relative;
+    left: 500px;
+    height: 50vh;
+    top: -520px;
+    width: 30%;
+    background: rgb(215 244 250);
+    box-shadow: rgba(21, 62, 71, 0.1) 5px 8px 10px;
+}
+.appointment{
+    margin:80px;
+    width: 300px;
+    height: 80px;
+    margin-bottom:50px ;
+}
+.chatwithdoc{
+    width: 300px;
+    height: 80px;
+    position: relative;
+    left: 81px;
+}
+.righttopbox{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    position: relative;
+    left: 1000px;
+    height: 50vh;
+    top: -888px;
+    width:30%;
+    background-color:  rgb(215 244 250);
+    box-shadow: rgba(21, 62, 71, 0.1) 5px 8px 10px;
+}
+.appointment{
+    margin:80px;
+    width: 300px;
+    height: 80px;
+    margin-bottom:50px ;
+    background-color: #27616E;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.chatwithdoc{
+    width: 300px;
+    height: 80px;
+    position: relative;
+    left: 81px;
+    background-color:#27616E;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.rating{
+font-size: 30px;
+position: relative;
+left: 150px;
+top:100px;
+}
+.aboutdoc{
+position:relative;
+top: 150px;
+left: 190px;
+font-size: 30px;
+}
+.docprofilepic img{
+position: relative;
+bottom: 275px;
+left: -28px;
+}
+
+
+
+
+
+.footer{
+    margin-top: -700px;
+}
+.sec{
+    padding: 40px 120px;
+    background-color: rgb(244,244,253);
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.two div{
+    width: 200px;
+}
+.ghar{
+    color: #27616E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.follow{
+    font-weight: bolder;
+    font-size: 13px;
+margin-left: 40px;
+margin-top: 10px;
+color: #27616E;
+
+}
+.social{
+    color: #27616E;
+    margin-left: 20px;
+}
+.two h4{
+    font-weight: bolder;
+    color: #27616E;
+    white-space: nowrap; 
+margin-bottom: 10px;
+}
+.two a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #27616E;
+    font-size: 0.9rem;
+}

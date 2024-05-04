@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.upper {
+    background-color: #27616E;
+    padding-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #27616E;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav .leftnav {
+    color: #6FD2E8;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+
+.header-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #27616E; 
+}
+
+.firstline {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFAFA;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second {
+    font-size: 18px;
+    color: #FFFAFA;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    border: none;
+}
+.uppersection{
+    margin-top: 30px;
+    margin-left:18%;
+    border: 2px solid black;
+    height: 15vh;
+    width: 60vw;
+    background-color: #FFFAFA;
+    border-radius:40px ;
+    margin-bottom: 20px;
+    
+}
+.box{
+    position: relative;
+    left:10px;
+    top: 20px;
+}
+.bookyourappointment{
+    margin-left: 20px;
+font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+a{
+    text-decoration: none;
+}
+#box2 input{
+    height: 30px; width: 25%; border-radius: 5px; border: 1px solid; margin-left: 45px;margin-top: 0px;
+}
+#box2 select{
+    height: 30px; width: 25%; border-radius: 5px; border: 1px solid; margin-left: 5px; margin-top:13px; margin-right:10px
+}
+#s1 button{
+    height: 30px; width: 20%; border-radius: 5px; border: 1px solid; margin-left: 5px; margin-top:13px; margin-right:10px; ;
+}
+.btn2{
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: #E0B0FF;
+    border: none;
+}
+.refine{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    border: black;
+    margin-left: 16px;
+    margin-bottom: 15px;
+
+}
+
+.searchbar input {
+    border: 1px solid #ccc; /* Add border style here */
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px; /* Add some space between input and icon */
+}
+
+.searchbar i {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.speciality{
+    color: #27616E;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.btn20 {
+    background-color: #E0B0FF ;
+    height: 30px;
+    width: 100px;
+    margin-top: 60px;
+}
+
+.options{
+    margin-left: 20px;
+    width: 300px;
+
+}
+
+.form{
+    width: 50px;
+}
+table {
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    border-collapse: separate;
+    border-spacing: 20px; 
+    width: 1000px;
+    border: none;
+    
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black; 
+    padding: 10px; 
+    background-color: white;
+
+    height: 200px;
+}
+
+
+.square img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    overflow: hidden; /* Ensures the image is clipped to the circle */
+}
+
+.rightportion{
+    background-color: aliceblue;
+}
+
+.footer{
+    margin-top: 40px;
+}
+.sec{
+    padding: 40px 120px;
+    background-color: rgb(244,244,253);
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.two div{
+    width: 200px;
+}
+.ghar{
+    color: #27616E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.follow{
+    font-weight: bolder;
+    font-size: 13px;
+margin-left: 40px;
+margin-top: 10px;
+color: #27616E;
+width: 100px;
+}
+
+.social{
+    color: #27616E;
+    margin-left: 20px;
+}
+.two h4{
+    font-weight: bolder;
+    color: #27616E;
+    white-space: nowrap; 
+margin-bottom: 10px;
+}
+.two a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #27616E;
+    font-size: 0.9rem;
+}
+
+.full {
+    display: flex;
+}
+
+.leftportion {
+  width: 250px;
+  position: sticky;
+}
+
+.rightportion {
+ 
+    width: 1000px;
+    
+}

@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #27616E;
+    height: 90px;
+    font-family: poppins;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;    
+    margin: 0 23px;
+    position: relative;
+    margin-left: 20px;
+    left: 175px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 20px;
+}
+nav .leftnav{
+    color: #6FD2E8;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left:-100px;
+}
+main{
+    display: flex;
+}
+main .leftbox h2{
+    font-size: 3rem;
+    font-weight: 600;
+    width: 435px;
+    margin-top: 90px;
+    margin-left: 85px;
+    color: #FFFFFF;
+    font-family: poppins;
+}
+main .leftbox{
+background-color:#18788D;
+height: 680px;
+font-family: poppins;
+}
+
+main .leftbox h3{
+    font-size: 30px;
+    width: 35vw;
+    margin-left: 83px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-family: inika;
+    font-weight: lighter;
+}
+#box2 input{
+    height: 30px; width: 20%; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.249); margin-left:5px;
+}
+#box2 select{
+    height: 30px; width: 20%; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.249); margin-left: 2px; margin-top:0px; margin-right:0px
+}
+#box2{
+    
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    position: relative;
+    bottom: -25px;
+    left: 25px;
+    padding-left: 80px;
+    padding-top: 24px;
+    padding-bottom: 50px;
+    border-radius: 60px;
+}
+#box2{
+    width: 630px;
+    background-color: #FFFFFF;
+}
+#bookyourappointment{
+    position: relative;
+    bottom:15px;
+    font-size: 30px;
+    font-weight: 540;
+}
+.Consulttopdoc
+{   font-size: 40px;
+    height: 300px;
+    width: 850px;
+    background:#ffffff;
+    position: relative;
+    margin-left: 290px;
+    top: 24px;
+}
+.Consulttopdoc h6{
+    position: relative;
+    right: 0px;
+    top: 10px;
+    left: 85px;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 659px;
+}
+#circleshape1{display: flex;
+    position: relative;
+    width:500px;
+    bottom: 150px;
+    left: 300px;
+    justify-content: space-between;
+}
+#circleshape1 img{
+    margin-left: 50px;
+    border: 0.1px solid rgba(128, 128, 128, 0.818);
+    border-radius:50%;}
+#rectangleshapetext{
+    margin-left:400px;
+}
+#rectangleshapetext span{
+    margin-right: 48px;
+    position: relative;
+    bottom: 130px;
+}
+#rectangleshapetext .skinproblem{
+    position: relative;
+    right: 40px;
+}
+#rectangleshapetext .Preganancy{
+    position: relative;
+    right: 14px;
+}
+
+
+#rectangleshapetext .depression{
+    position: relative;
+    right: 9px;
+}
+
+
+#rectangleshapetext .Pediatrician{
+    position: relative;
+    right: 14px;
+}
+/* .lastsection div.biggerbox{
+    width: 100%;
+    height: 500px;
+    background-color:#27616E;
+    position: relative;
+    top: 80px;
+}
+
+.lastsection .smallerbox1{
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+}
+.lastsection .smallerbox2{
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+}
+.lastsection div{
+    display: flex;
+    flex-direction: row;
+} */
+.btn5{
+    height: 100px;
+    width: 447px;
+    position: relative;
+    top: -15px;
+    left: 860px;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 40px;
+}
+.sec{
+    padding: 40px 120px;
+    background-color: rgb(244,244,253);
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.two div{
+    width: 200px;
+}
+.ghar{
+    color: #27616E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.follow{
+    font-weight: bolder;
+    font-size: 13px;
+margin-left: 40px;
+margin-top: 10px;
+color: #27616E;
+
+}
+.social{
+    color: #27616E;
+    margin-left: 20px;
+}
+.two h4{
+    font-weight: bolder;
+    color: #27616E;
+    white-space: nowrap; 
+margin-bottom: 10px;
+}
+.two a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #27616E;
+    font-size: 0.9rem;
+}
